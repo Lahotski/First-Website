@@ -34,3 +34,18 @@ li a:hover {
     display: flex;
     justify-content: flex-start;
 }
+.a {
+    color: red;
+}
+
+#follow {
+    color: black;
+    background-color: white;
+    border: 1px solid;
+    border-color: cyan;
+    border-radius: 3px;
+    width: 85px;
+    height: 30px;
+    position: flex;	 
+    cursor: hand;
+}
