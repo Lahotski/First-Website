@@ -1,8 +1,9 @@
-body,head {
+html {
     background-color: black;
     color: white;
     font-family: 'Chakra Petch', sans-serif;
     text-align: justify;
+    width: 100%;
 }
 ul {
 list-style-type: none;
@@ -48,4 +49,16 @@ li a:hover {
 tr, td {
     border: 1px solid;
     text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+}
+.table01 {
+    margin-left: 3%;
 }
