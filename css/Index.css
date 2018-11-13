@@ -32,16 +32,6 @@ li a:hover {
     color: white;
 }
 
-.spotify {
-    display: flex;
-    justify-content: flex-start;
-}
-.a {
-    color: red;
-}
-
-
-
 tr, td {
     border: 1px solid;
     text-align: center;
@@ -51,4 +41,10 @@ tr, td {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+#social {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
